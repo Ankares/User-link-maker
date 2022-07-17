@@ -1,0 +1,29 @@
+.links {
+  display: block;
+  margin-top: -50px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.links h1,h2 {
+  text-align: center;
+}
+.link {
+  margin-top: 25px;
+  background: #fafafa;
+  padding: 12px 20px;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+.link:last-child {
+  margin-bottom: 90px;
+}
+.link p {
+  word-wrap: break-word;
+}
+.link p:last-of-type {
+  margin-top: 10px;
+}
+.link button {
+  margin-top: 15px;
+}

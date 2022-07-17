@@ -1,0 +1,20 @@
+.dashboard{
+  margin-top: 80px;
+  margin-bottom: 150px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.dashboard button{
+  margin-top: 20px;
+  width: 150px;
+}
+.dashboard h2{
+  font-size: 28px;
+  font-weight: 700;
+}
+.dashboard p{
+  margin-top: 50px;
+  font-size: 16px;
+
+}

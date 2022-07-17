@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #333;
+  font-weight: 400;
+  background: #fff;
+}
+img {
+  max-width: 100%;
+}
+a {
+  color: #404040;
+  transition: all 500ms ease;
+}
+a:hover{
+  color: #02adda;
+  transition: all 500ms ease;
+}
+button {
+  padding: 10px 17px;
+  border: none;
+  border-radius: 5px;
+  background: #eb0000;
+  color:#fff;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: all 500ms ease;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+header {
+  -webkit-box-shadow: 1px 1px 19px -3px rgba(6, 132, 229, 0.2);
+  -moz-box-shadow: 1px 1px 19px -3px rgba(6, 132, 229, 0.2);
+  box-shadow: 1px 1px 19px -3px rgba(6, 132, 229, 0.2);
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+header .container .logo img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  transition: all 500ms ease;
+}
+header .container .logo img:hover {
+  transition: all 500ms ease;
+  transform: scale(1.2);
+}
+header .container .logo h3 {
+  font-size: 22px;
+  font-weight: 500;
+  width: 350px;
+  margin-top: 25px;
+  display: block;
+}
+header .container .menu a{
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+footer{
+  background: black;
+  color: white;
+  font-size: 16px;
+}
+footer .container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .social i{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: silver;
+  color: #333;
+  margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+  transition: all 500ms ease;
+}
+footer .social i:hover {
+  transition: all 500ms ease;
+  transform: translateY(-5px);
+  background: #02adda;
+}
